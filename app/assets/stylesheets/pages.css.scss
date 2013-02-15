@@ -7,20 +7,45 @@ h1 {
   font-family: 'Crete Round', serif;
 }
 
-h3 {
+h2 {
   font-size: 36px;
   font-family: 'Crete Round', serif;
 }
+
+.photo-header {
+  margin-top: -9px;
+}
+
+.photo-header img {
+    max-width: 100%;
+}
+
+.overlay-section {
+  background-color: rgba(0, 0, 0, 0.1);
+  width: 30%;
+  position: absolute;
+  margin-left: 492px;
+  margin-top: 36px;
+  top: 0;
+  min-height: 419px;
+  padding-top: 139px;
+
+  h2 {
+    color: white;
+}
+.date-header {
+  font-size: 20px;
+  font-family: 'Crete Round', serif;
+  margin-top: 14px;
+  color: white;
+}
+}
+
 
 .section {
   margin-bottom: 20px;
 }
 
-.date-header {
-  font-size: 20px;
-  font-family: 'Crete Round', serif;
-  margin-top: 14px;
-}
 
 li.vendor {
   list-style-type: none;
