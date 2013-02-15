@@ -1,17 +1,5 @@
 development:
-  adapter: postgresql
-  database: warstler_development
-  pool: 5
-  timeout: 5000
-
-test:
-  adapter: postgresql
-  database: warstler_test
-  pool: 5
-  timeout: 5000
-
-production:
-  adapter: postgresql
-  database: warstler_production
+  adapter: sqlite3
+  database: db/development.sqlite3
   pool: 5
   timeout: 5000
