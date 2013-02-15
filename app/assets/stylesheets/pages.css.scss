@@ -12,6 +12,11 @@ h2 {
   font-family: 'Crete Round', serif;
 }
 
+h4 {
+  font-size: 18px;
+  font-family: 'Crete Round', serif;
+}
+
 .photo-header {
   margin-top: -9px;
 }
@@ -44,6 +49,10 @@ h2 {
 
 .section {
   margin-bottom: 20px;
+h3 {
+  font-family: 'Crete Round', serif;
+  font-size: 27px;
+}
 }
 
 
@@ -56,4 +65,18 @@ li.vendor {
 
 ul {
   margin-left: -35px;
+}
+
+li {
+  list-style-type: none;
+}
+
+ul.accomodations {
+
+li.accomodation {
+  width: 447px;
+  display: inline-block;
+  text-align: top;
+ }
+
 }
