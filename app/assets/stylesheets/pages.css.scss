@@ -22,8 +22,13 @@ h3 {
   margin-top: 14px;
 }
 
-li {
+li.vendor {
   list-style-type: none;
   margin-bottom: 20px;
+  font-family: 'Crete Round', serif;
+  font-size: 16px;
 }
 
+ul {
+  margin-left: -35px;
+}
