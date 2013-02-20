@@ -1,25 +1,44 @@
-<div class='photo-header'>
+<div class='top'>
   <%= image_tag 'sharon-todd-sunset.jpg' %>
 </div>
 
-<div class='overlay-section'>
-  <h2>
-    Sharon & Todd
-  </h2>
-  <div class='date-header'>
-    April 13, 2013
+<div class='bump'></div>
+<div style="clear:both;">&nbsp;</div>
+<div class='zag'></div>
+<div id='menu'>
+  <li id='menunav'><%= link_to 'The Couple', '/', id:'homenav' %></li>
+  <li id='menunav'><%= link_to 'Story', '/', id:'homenav' %></li>
+  <li id='menunav'><%= link_to 'Accmodations', '/', id:'homenav' %></li>
+  <li id='menunav'><%= link_to 'Vendors', '/', id:'homenav' %></li>
+  <li id='menunav'><%= link_to 'Registry', '/', id:'homenav' %></li>
+</div>
+
+<div class='bump'></div>
+
+<div class='container'>
+  <div class='bump'></div>
+  <div class="fourcol_3">
+    <blockquote>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</blockquote>
   </div>
-  <%#= (Date.new(2013, 4, 13) - Date.today).to_i %><!-- days left -->
+  <div class="fourcol">
+    <div class="count">
+      <p>The celebration begins in:</p>
+      <h1><%= (Date.new(2013, 4, 13) - Date.today).to_i %> days</h1>
+    </div>
+  </div>
+</div>
+
+<div class='bump'></div>
+<div style="clear:both;">&nbsp;</div>
+
+<div class="twocol sharon">
+  <img src="images/courtney.jpg" alt="Courtney">
+  <h1             class="profile">Her</h1>
+  <p>Hi! Courtney Cox here. I live in the loveely city of Austin. I adore creativity. Nature is my thing. My grandma's sewing machine keeps me busy. Poetry keeps me sane. Children enlighten me daily. Anything vintage inspires me. <a href="http://www.youtube.com/watch?v=PsD0NpFSADM">This movie</a> makes me smile. I am compared to <a href="http://www.youtube.com/watch?v=KL9wZZMCzyQ">this girl</a> quite often.</p> 
+  <p style="font-style:italic;color:#aaa;">I kind of Handsve a thing for Him →</p>
 </div>
 
 
-<div class='section'>
-  <h3>Our Story</h3>
-
-</div>
-
-<div class='section'>
-  <h3>Vendors</h3>
 
   <ul>
     <li class='vendor'><%= link_to "Dorothy's Floral Studio", 'http://www.dorothysfloralstudio.com/', html_options = { title: "Dorothy's Floral Studio", target: 'blank' } %></li>
@@ -76,4 +95,16 @@
     </li>
   </ul>
 
+  bed bath beyond and macys
+
 </div>
+<%#<div class='overlay-section'>%>
+  <%#<h2>%>
+    <%#Sharon & Todd%>
+  <%#</h2>%>
+  <%#<div class='date-header'>%>
+    <%#April 13, 2013%>
+  <%#</div>%>
+  <%#[>= (Date.new(2013, 4, 13) - Date.today).to_i <]<!-- days left -->%>
+<%#</div>%>
+
