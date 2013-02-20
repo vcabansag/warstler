@@ -52,8 +52,8 @@ html,body {margin:0;padding:0;}
 
 /*
 Theme Name: The Pittmans
-Designer: Brendan Pittman
-Developers: Brendan Pittman
+Designer: todd Pittman
+Developers: todd Pittman
 
 
 Colors:
@@ -458,37 +458,37 @@ ul.details li {
 	border-bottom: 4px solid #fff;
 }
 
-.courtney {
-    background-image: url('/images/courtney2.jpg');
+.sharon {
+    background-image: url('/images/sharon2.jpg');
     background-repeat: no-repeat;
 }
 
-.courtney img {
+.sharon img {
     height:305px;
     -webkit-transition: opacity .2s ease-in; /*safari and chrome */
     -o-transition: opacity .2s ease-in; /* opera */    
 }
 
-.courtney img:hover {
+.sharon img:hover {
 	height:305px;
 	opacity: 0;
 	filter: alpha(opacity=0);
     -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";    
 }
 
-.brendan {
-    background-image: url('/images/brendan2.jpg');
+.todd {
+    background-image: url('/images/todd2.jpg');
     background-repeat: no-repeat;
 }
 
-.brendan img {
+.todd img {
     height:305px;
     -webkit-transition: opacity .2s ease-in; /*safari and chrome */
     -o-transition: opacity .2s ease-in; /* opera */      
 
 }
 
-.brendan img:hover {
+.todd img:hover {
 	height:305px;
 	opacity: 0;
 	filter: alpha(opacity=0);

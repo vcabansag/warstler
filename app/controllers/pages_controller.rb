@@ -69,4 +69,7 @@ class PagesController < ApplicationController
     end
   end
 
+  def weddingdetails
+  end
+
 end
