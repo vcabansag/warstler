@@ -290,9 +290,8 @@ li#menunav {
 }
 
 body#home a#homenav,
-body#proposal a#proposalnav,
-body#rsvp a#rsvpnav,
-body#details a#detailsnav,
+body#ourstory a#ourstorynav,
+body#weddingdetails a#weddingdetailsnav,
 body#registry a#registrynav,
 body#services a#servicesnav {
 color: #000;
@@ -495,7 +494,6 @@ ul.details li {
     -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";    
 }
 
-
 blockquote {
 	color: #000;
 	font-family: "rooney-web",serif;
@@ -531,9 +529,6 @@ blockquote {
 	max-width: 100%;
 	z-index:-9999;
 }
-
-
-
 
 /*~~~~~~~~~~~ Slides ~~~~~~~~~~~~~~*/
 
@@ -597,9 +592,6 @@ blockquote {
 	background-color: #68BCA5;
 	color:#68BCA5;
 }
-
-
-
 
 .footer {
 	width:100%;

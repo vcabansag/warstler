@@ -4,6 +4,8 @@ Warstler::Application.routes.draw do
 
   root to: 'pages#index'
 
-  get 'wedding-details' => 'pages#weddingdetails', :as => :weddingdetails
+  get 'weddingdetails' => 'pages#weddingdetails', :as => :weddingdetails
+  get 'ourstory' => 'pages#ourstory', :as => :ourstory
+  get 'registry' => 'pages#registry', :as => :registry
   
 end

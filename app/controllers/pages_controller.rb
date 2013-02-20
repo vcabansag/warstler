@@ -2,6 +2,7 @@ class PagesController < ApplicationController
 
   def index
     @pages = Page.all
+    @page_name = 'home'
 
     respond_to do |format|
       format.html # index.html.erb
@@ -70,6 +71,15 @@ class PagesController < ApplicationController
   end
 
   def weddingdetails
+    @page_name = 'weddingdetails'
+  end
+
+  def ourstory 
+    @page_name = 'ourstory'
+  end
+
+  def registry
+    @page_name = 'registry'
   end
 
 end
