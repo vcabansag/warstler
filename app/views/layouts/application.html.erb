@@ -9,10 +9,7 @@
     <%= csrf_meta_tags %>
   </head>
 
-
-
   <body id="<%= @page_name %>">
-
     <div class='top'>
       <%= image_tag 'sharon-todd-sunset.jpg' %>
     </div>
@@ -22,9 +19,9 @@
     <div class='zag'></div>
     <div id='menu'>
       <li id='menunav'><%= link_to 'The Couple', '/', id:'homenav' %></li>
-      <li id='menunav'><%= link_to 'Our Story', 'ourstory', id:'ourstory' %></li>
-      <li id='menunav'><%= link_to 'Wedding Details', 'weddingdetails', id:'weddingdetails' %></li>
-      <li id='menunav'><%= link_to 'Registry', 'registry', id:'registry' %></li>
+      <li id='menunav'><%= link_to 'Our Story', 'ourstory', id:'ourstorynav' %></li>
+      <li id='menunav'><%= link_to 'Wedding Details', 'weddingdetails', id:'weddingdetailsnav' %></li>
+      <li id='menunav'><%= link_to 'Registry', 'registry', id:'registrynav' %></li>
     </div>
 
     <div class='bump'></div>
