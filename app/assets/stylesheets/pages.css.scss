@@ -232,7 +232,7 @@ body {
 	font-weight: 400;
 	font-size: 36px;
 	color: #000;
-	line-height: 43px;
+	line-height: 120px;
 	letter-spacing: -.03em;
 }
 
@@ -267,7 +267,7 @@ img.prop:hover {
 	
 	margin: -43px auto 0 auto;
 	text-align: center;
-	width: 702px;
+	width: 651px;
 	height: auto;
 	background: #f6f6f6;
 	padding: 19px 0 19px 0;
@@ -436,19 +436,20 @@ ul.details li {
  	-o-transition: background-color .25s ease-in; /* opera */
 }
 
-.count:hover {
-	background: #cbd500;
-	cursor:pointer;
-}
+/*.count:hover {*/
+	/*background: #cbd500;*/
+	/*cursor:pointer;*/
+/*}*/
 
 .count h1, .count h3, .count p, .fourcol-prop h1, .fourcol-prop h3, .fourcol-prop p {
+  font-family: 'Francois One', 'sans serif';
 	text-align: center;
 	color: #fff;
 }
 
 .count h1, fourcol-prop h1 {
-	font-size: 46px;
-	padding-top: 5px;
+	font-size: 51px;
+	padding-top: 18px;
 }
 
 .count h1 {
@@ -463,6 +464,7 @@ ul.details li {
 .count p {
 	padding-bottom: 10px;
 	border-bottom: 4px solid #fff;
+  font-family: 'Francois One', 'sans serif';
 }
 
 .sharon {
@@ -610,7 +612,7 @@ blockquote {
 }
 
 .footer img {
-	margin-top: 10px;
+	margin-top: 6px;
 }
 
 input.text, input.search, textarea.textarea {
