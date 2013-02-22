@@ -236,6 +236,12 @@ body {
 	letter-spacing: -.03em;
 }
 
+ul.details li.vendor {
+  list-style-type:none;
+  font-size:20px;
+  a { color: #68BCA5; }
+}
+
 a.fade {
     -webkit-transition: opacity .2s ease-in; /*safari and chrome */
     -o-transition: opacity .2s ease-in; /* opera */}
