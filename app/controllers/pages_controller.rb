@@ -70,8 +70,8 @@ class PagesController < ApplicationController
     end
   end
 
-  def weddingdetails
-    @page_name = 'weddingdetails'
+  def reception
+    @page_name = 'reception'
   end
 
   def ourstory 
