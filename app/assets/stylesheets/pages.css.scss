@@ -226,6 +226,16 @@ body {
 	clear:both;
 }
 
+.registry {
+	font-family: 'Crete Round', serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 36px;
+	color: #000;
+	line-height: 43px;
+	letter-spacing: -.03em;
+}
+
 a.fade {
     -webkit-transition: opacity .2s ease-in; /*safari and chrome */
     -o-transition: opacity .2s ease-in; /* opera */}
@@ -235,8 +245,6 @@ a.fade:hover {
     opacity: 0.60;
     filter: alpha(opacity=60);
     -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
-    
-
 }
 
 img.prop {
