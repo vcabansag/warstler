@@ -4,6 +4,7 @@ class PagesController < ApplicationController
     @pages = Page.all
     @page_name = 'home'
     @page_image = 'sharon-todd-sunset.jpg'
+    @title = 'Sharon & Todd'
 
     respond_to do |format|
       format.html # index.html.erb
@@ -74,16 +75,19 @@ class PagesController < ApplicationController
   def reception
     @page_name = 'reception'
     @page_image = 'sharon-todd-cheeky.jpg'
+    @title = "Sharon & Todd's Reception"
   end
 
   def ourstory 
     @page_name = 'ourstory'
     @page_image = 'sharon-todd-beach.jpg'
+    @title = "Sharon & Todd's Story"
   end
 
   def registry
     @page_name = 'registry'
     @page_image = 'sharon-todd-umbrella.jpg'
+    @title = "Sharon & Todd's Registry"
   end
 
 end
