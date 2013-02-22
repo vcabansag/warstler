@@ -73,12 +73,12 @@ class PagesController < ApplicationController
 
   def reception
     @page_name = 'reception'
-    @page_image = 'sharon-todd-beach.jpg'
+    @page_image = 'sharon-todd-cheeky.jpg'
   end
 
   def ourstory 
     @page_name = 'ourstory'
-    @page_image = 'sharon-todd-cheeky.jpg'
+    @page_image = 'sharon-todd-beach.jpg'
   end
 
   def registry
