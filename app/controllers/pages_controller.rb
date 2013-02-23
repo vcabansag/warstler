@@ -3,7 +3,7 @@ class PagesController < ApplicationController
   def index
     @pages = Page.all
     @page_name = 'home'
-    @page_image = 'sharon-todd-sunset.jpg'
+    @page_image = 'sharon-todd-sunset-logo.jpg'
     @title = 'Sharon & Todd'
 
     respond_to do |format|
