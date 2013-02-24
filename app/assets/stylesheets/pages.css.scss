@@ -646,7 +646,12 @@ input.text, input.search, textarea.textarea {
 }
 
 .ourstory {
+  padding-top: 27px;
   text-align: left;
   margin: 0 auto;
-  width: 700px;
+  width: 720px;
+  p {
+    line-height: 2em;
+    font-size: 18px
+ }
 }
