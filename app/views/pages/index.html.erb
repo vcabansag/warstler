@@ -5,8 +5,8 @@
   </div>
   <div class="fourcol">
     <div class="count">
-      <p>The celebration begins in:</p>
-      <h1><%= (Date.new(2013, 4, 13) - Date.today).to_i %> days</h1>
+      <p>Celebrating for:</p>
+      <h1><%= (Date.new(2013, 4, 13) - Date.today).to_i.abs %> days</h1>
     </div>
   </div>
   <div class='bump'></div>
